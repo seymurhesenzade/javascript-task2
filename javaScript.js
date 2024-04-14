@@ -54,7 +54,7 @@
 //   }
 // }
 
-                                                                    // ! FUNCTIONS
+                                                                    // !FUNCTIONS
 
 
 // ? Task 2:  Daxil edilən ədədin kvadratını return edən funksiya yazın.
