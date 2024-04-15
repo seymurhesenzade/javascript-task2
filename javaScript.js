@@ -1,6 +1,6 @@
 
 
-                                                                     // !LOOPS
+                                                          // !LOOPS
 
 // ? Task 2: Verilmiş ədədin bütün bölənlərini console'a çıxaran proqram tərtib edin.
 
@@ -21,7 +21,9 @@
 // let number = parseInt(prompt("Zehmet olmasa bir eded girin"));
 // let count=0;
 // for (let i = 1; i <= number; i++) {
+
 //     if (number % i ===0) {
+
 //         count++;
        
         
@@ -70,36 +72,34 @@
 
 // ? Task 3:  4 funksiya yazın. Hər biri 2 parametr qəbul etsin və riyazi əməlləri yerinə yetirsin.
 
-// let birinciEded =Number(prompt("Birinci Ededi Daxil Edin :"));
-// let ikinciEded =Number(prompt("Ikinci Ededi Daxil Edin :"));
+// let firstNumber = Number(prompt("Eded 1-i daxil edin "));
+// let secondNumber = Number(prompt("Eded 2-i daxil edin "));
 
 
-// function cem(birinciEded, ikinciEded) {
-//     return console.log( birinciEded + ikinciEded );
+// //SUM FUNCTION
+// function sum(firstNumber,secondNumber) {
+//     return console.log("Cemin neticesi :"+ Number(firstNumber+secondNumber));
 // }
 
-
-// function cixma(birinciEded, ikinciEded) {
-//     return console.log(birinciEded - ikinciEded);
-    
+// //SUBTRACT FUNCTION
+// function subtract(firstNumber,secondNumber) {
+//     return console.log("Ferqin neticesi :"+Number(firstNumber-secondNumber));
 // }
 
-
-// function bolme(birinciEded, ikinciEded) {
-//     return console.log(birinciEded / ikinciEded);
-    
+// //DEVICE FUNCTION 
+// function device(firstNumber,secondNumber) {
+//     return console.log("Bolmenin neticesi :"+Number(firstNumber/secondNumber));
 // }
 
-
-// function vurma(birinciEded, ikinciEded) {
-//     return console.log(birinciEded * ikinciEded);
-    
+// //MULTIPLAY FUNCTION
+// function multiplay(firstNumber,secondNumber) {
+//     return console.log("Vurmanin neticesi :"+Number(firstNumber*secondNumber));
 // }
 
-// cem(birinciEded,ikinciEded);
-// cixma(birinciEded,ikinciEded);
-// bolme(birinciEded,ikinciEded);
-// vurma(birinciEded,ikinciEded);
+// sum(firstNumber,secondNumber);
+// subtract(firstNumber,secondNumber);
+// device(firstNumber,secondNumber);
+// multiplay(firstNumber,secondNumber);
 
 
 // ? Task 4:  Elə bir funksiya yazın ki, 3 parametr qəbul etsin, 2 ədəd və 1 ədəd operator. Operatora uygun nəticəni return etsin.
@@ -140,3 +140,17 @@
 // }
 // }
 // hesablama(parametr1,parametr2,operator)
+
+// ? A ile baslayib a ile biten seher adlari"
+
+// let countries = ["Azerbaijan", "Albania", "Germany", "America", "Russian", "Australila", "Afganistan", "Austria"];
+
+// for (let i = 0; i < countries.length; i++) {
+//     if (
+//         countries[i][0].toLowerCase() ==="a" &&
+//         countries[i][countries[i].length-1].toLowerCase()==="a"
+//     )
+//     {
+//         console.log(countries[i]);
+//     }
+// }
