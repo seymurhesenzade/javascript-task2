@@ -154,3 +154,26 @@
 //         console.log(countries[i]);
 //     }
 // }
+
+// e ile basalyib e ilen bitenler 
+
+// let names = ["Elmedie", "Elseve", "Eli","Aysel","Nicat","Resad","Ele"];
+// function selectName(array) {
+//     let res =[]
+//     for (let i = 0; i < array.length; i++) {
+//        if (array[i][0]==="E" && array[i][array[i].length-1]==="e") 
+//        res.push(array[i])
+//     }
+//     return console.log(res);
+// }
+// selectName(names);
+
+
+
+
+
+
+
+
+
+
